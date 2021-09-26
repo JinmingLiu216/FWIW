@@ -1,0 +1,51 @@
+* {
+  font-style: normal;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Nunito', sans-serif;
+}
+
+html {
+  height: 100vh;
+}
+
+html body {
+  height: 100%;
+  display: grid;
+  place-content: center;
+  gap: 1ch;
+}
+
+html body section {
+  border: 1px solid #CCCCCC;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+html body section img {
+  height: 200px;
+  width: 200px;
+  padding: 10px;
+}
+
+html body section img:only-child {
+  padding: 15px 10px;
+}
+
+html body section span {
+  display: block;
+  padding: 0 10px;
+}
+
+html body section span:nth-of-type(1) {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+html body section span:nth-of-type(2) {
+  font-size: 14px;
+  color: #656565;
+  padding: 0 10px 15px;
+}
